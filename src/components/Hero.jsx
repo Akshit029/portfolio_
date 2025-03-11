@@ -3,6 +3,7 @@ import profilepic from "../assets/kevinRushProfile.png";
 import { motion } from "framer-motion";
 
 //heroo
+//hi 
 
 const container = (delay) => ({
     hidden: {x: -100 , opacity:0 },
