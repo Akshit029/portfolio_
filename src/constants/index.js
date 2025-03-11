@@ -62,7 +62,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: [ "TAILWIND CSS", "React js", "FARMER MOTION"],
-    demoLink: "https://gymfit-lac.vercel.app",
+    demoLink: "https://portfolio-f28c.vercel.app",
   },
   {
     title: "SPOTIFY CLONE",
