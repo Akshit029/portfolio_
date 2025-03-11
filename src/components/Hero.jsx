@@ -2,6 +2,8 @@ import { HERO_CONTENT } from "../constants"
 import profilepic from "../assets/kevinRushProfile.png";
 import { motion } from "framer-motion";
 
+//heroo
+
 const container = (delay) => ({
     hidden: {x: -100 , opacity:0 },
     visible: {
