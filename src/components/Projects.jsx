@@ -21,12 +21,12 @@ const Projects = () => {
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
               transition={{ duration: 1 }}
-              className="w-full lg:w-1/4 mb-6"
+              className="w-full lg:w-1/4 mb-6 group"
             >
               <img
                 src={project.image}
                 alt={project.title}
-                className="rounded w-full h-auto max-w-[150px] mx-auto"
+                className="rounded w-full h-auto max-w-[150px] mx-auto transform group-hover:scale-150 transition-transform duration-300 ease-in-out" // Added transform for scale effect
               />
             </motion.div>
 
