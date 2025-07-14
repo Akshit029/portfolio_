@@ -42,21 +42,20 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "CLOTHCRAVE",
+    title: "Syncfit",
     image: project1,
+    description:
+      "SYNCFIT is a fitness platform offering tools like workout plans, a BMI calculator, calorie counter, and membership options to help you stay on track with your health goals.",
+    technologies: ["EXPRESS Js", "TAILWIND CSS", "React js", "Node.js", "MongoDB" , "Gemini Api"],
+    demoLink: "https://syncfit-six.vercel.app",
+  },
+  {
+    title: "CLOTHCRAVE",
+    image: project2,
     description:
       "A functional e-commerce website with features like product listing, shopping cart, and user authentication.",
     technologies: ["EXPRESS Js", "TAILWIND CSS", "React js", "Node.js", "MongoDB"],
     demoLink: "https://clothcrave.vercel.app",
-  },
-  {
-    title: "GYMFIT",
-    image: project2,
-    description:
-      "GYMFIT is a fitness platform offering tools like workout plans, a BMI calculator, calorie counter, and membership options to help you stay on track with your health goals.",
-    technologies: ["React Js", "TAILWIND CSS", "Api", "MONGODB"],
-    demoLink: "https://gymfit-lac.vercel.app",
-
   },
   {
     title: "Portfolio",
