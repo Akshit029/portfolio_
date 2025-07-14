@@ -1,5 +1,5 @@
-import project1 from "../assets/projects/clothcrave.png";
-import project2 from "../assets/projects/gymfit.png";
+import project1 from "../assets/projects/Syncfit.png";
+import project2 from "../assets/projects/clothcrave.png";
 import project3 from "../assets/projects/portfolio.png";
 import project4 from "../assets/projects/spotifyclone.png";
 import project5 from "../assets/projects/project-1.jpg";
