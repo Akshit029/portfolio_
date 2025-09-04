@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants"
-import profilepic from "../assets/kevinRushProfile.png";
+import profilepic from "../assets/Profile.jpeg";
 import { motion } from "framer-motion";
 
 //heroo
@@ -50,7 +50,7 @@ const Hero = () => {
               transition={{ duration: 1, delay: 1.2 }}
               src={profilepic}
               alt="hero-img"
-              className="rounded-full border-4 border-white shadow-xl"
+              className="rounded-full h-100 w-96 border-4 border-white shadow-xl"
             />
           </div>
         </div>

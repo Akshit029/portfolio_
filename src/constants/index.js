@@ -1,8 +1,6 @@
 import project1 from "../assets/projects/Syncfit.png";
-import project2 from "../assets/projects/clothcrave.png";
-import project3 from "../assets/projects/portfolio.png";
-import project4 from "../assets/projects/spotifyclone.png";
-import project5 from "../assets/projects/project-1.jpg";
+import project2 from "../assets/projects/project-2.png";
+import project3 from "../assets/projects/project-3.png";
 
 
 export const HERO_CONTENT = `I am a dedicated and eager-to-learn full stack development student with a strong interest in building scalable and efficient web applications. Over the past few years, I have gained hands-on experience with front-end technologies like React and Next.js, as well as back-end technologies such as Node.js and MongoDB. My goal is to apply my growing knowledge and skills to create impactful solutions that enhance user experiences and contribute to business success.`;
@@ -16,6 +14,13 @@ export const EXPERIENCES = [
     company: "My Job Grow",
     description: `Successfully completed a 2 - months Hybrid Internship program related to Web Development`,
     technologies: ["Javascript", "React.js", "Html", "Css"],
+  },
+  {
+    year: "July 2025  - Aug 2025",
+    role: "INTERNSHIP",
+    company: "Advantal Technologies",
+    description: `Successfully completed a 1 - months Internship program related to Web Development (Mern Stack)`,
+    technologies: ["Node.js", "Express.js", "React.js" , "MongoDB" , "Tailwind CSS"],
   },
   // {
   //   year: "2022 - 2023",
@@ -50,39 +55,55 @@ export const PROJECTS = [
     demoLink: "https://syncfit-six.vercel.app",
   },
   {
-    title: "CLOTHCRAVE",
+    title: "VIG",
     image: project2,
     description:
-      "A functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+      "VIG is an Ai-Powered platform to generate Audio and Video Caption",
     technologies: ["EXPRESS Js", "TAILWIND CSS", "React js", "Node.js", "MongoDB"],
-    demoLink: "https://clothcrave.vercel.app",
+    demoLink: "https://vig-psi.vercel.app",
   },
   {
-    title: "Portfolio",
+    title: "Mindnest",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
+      "Mindnest is an Ai-Powered Mental health and wellness platform.",
     technologies: [ "TAILWIND CSS", "React js", "FARMER MOTION"],
-    demoLink: "https://portfolio-f28c.vercel.app",
+    demoLink: "https://mindnest-zeta.vercel.app",
   },
-  {
-    title: "SPOTIFY CLONE",
-    image: project4,
-    description:
-      "Spotify Clone is a frontend music streaming app that lets users browse, search, and play songs with a sleek, responsive interface.",
-    technologies: ["React js", "TAILWIND CSS"],
-    demoLink: "https://spotify-clone-liart-nine.vercel.app",
+  // {
+  //   title: "CLOTHCRAVE",
+  //   image: project2,
+  //   description:
+  //     "A functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+  //   technologies: ["EXPRESS Js", "TAILWIND CSS", "React js", "Node.js", "MongoDB"],
+  //   demoLink: "https://clothcrave.vercel.app",
+  // },
+  // {
+  //   title: "Portfolio",
+  //   image: project3,
+  //   description:
+  //     "A personal portfolio website showcasing projects, skills, and contact information.",
+  //   technologies: [ "TAILWIND CSS", "React js", "FARMER MOTION"],
+  //   demoLink: "https://portfolio-f28c.vercel.app",
+  // },
+  // {
+  //   title: "SPOTIFY CLONE",
+  //   image: project4,
+  //   description:
+  //     "Spotify Clone is a frontend music streaming app that lets users browse, search, and play songs with a sleek, responsive interface.",
+  //   technologies: ["React js", "TAILWIND CSS"],
+  //   demoLink: "https://spotify-clone-liart-nine.vercel.app",
 
-  },
-  {
-    title: "CAMPUS SCAN-SHIELD",
-    image: project5,
-    description:
-      "Campus Scan Shield is a project that records vehicle entry and exit times using cameras and QR scanners, providing parking slots for college vehicles, ensuring smooth and efficient campus parking management.",
-    technologies: ["React js", "TAILWIND CSS" , "PYTHON" , "MONGODB" , "Node js"],
-    demoLink: "Coming soon",
+  // },
+  // {
+  //   title: "CAMPUS SCAN-SHIELD",
+  //   image: project5,
+  //   description:
+  //     "Campus Scan Shield is a project that records vehicle entry and exit times using cameras and QR scanners, providing parking slots for college vehicles, ensuring smooth and efficient campus parking management.",
+  //   technologies: ["React js", "TAILWIND CSS" , "PYTHON" , "MONGODB" , "Node js"],
+  //   demoLink: "Coming soon",
 
-  },
+  // },
 ];
 
 export const CONTACT = {
